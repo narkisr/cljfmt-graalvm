@@ -1,6 +1,6 @@
 # Intro
 
-This is a fork of [cljfmt-graalvm](https://gitlab.com/konrad.mrozek/cljfmt-graalvm) native binary version of cljfmt.
+This is a fork of [cljfmt-graalvm](https://gitlab.com/konrad.mrozek/cljfmt-graalvm) native binary version of cljfmt that uses stdin as input.
 
 ## Usage
 
@@ -15,10 +15,9 @@ $ cat src/foo.clj | cljfmt
 ```bash
 $ lein uberjar
 
-$ native-image -jar target/cljfmt-graalvm-0.1.0-standalone.jar -H:Name="cljfmt" --report-unsupported-elements-at-runtime --initialize-at-build-time
+$ lein native-image
 ```
 
 ## License
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.
