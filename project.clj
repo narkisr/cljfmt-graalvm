@@ -1,4 +1,4 @@
-(defproject cljfmt-graalvm "0.1.0-SNAPSHOT"
+(defproject cljfmt-graalvm "0.1.0"
   :description "Clojure formatter using cljfmt built with GraalVM"
   :url "https://gitlab.com/konrad.mrozek/cljfmt-graalvm"
   :license {:name "Eclipse Public License"
