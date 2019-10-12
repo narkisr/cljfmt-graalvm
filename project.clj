@@ -9,6 +9,8 @@
 
   :plugins [
      [io.taylorwood/lein-native-image "0.3.1"]
+     [lein-tag "0.1.0"]
+     [lein-set-version "0.3.0"]
   ]
 
   :profiles {
