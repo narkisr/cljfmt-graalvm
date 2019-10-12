@@ -3,6 +3,6 @@
   (:gen-class))
 
 (defn -main
-  [x]
-  (let [s (fmt/reformat-string (slurp x))]
-    (spit x s)))
+  []
+  (let [s (fmt/reformat-string (slurp *in*))]
+    (println s)))
