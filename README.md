@@ -15,7 +15,7 @@ $ cat src/foo.clj | cljfmt
 ```bash
 $ lein uberjar
 
-$ native-image -jar target/cljfmt-graalvm-0.1.0-SNAPSHOT-standalone.jar -H:Name="cljfmt"
+$ native-image -jar target/cljfmt-graalvm-0.1.0-standalone.jar -H:Name="cljfmt" --report-unsupported-elements-at-runtime --initialize-at-build-time
 ```
 
 ## License
